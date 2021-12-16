@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "261111233724",
+    "project_id": "notifications-flutter-c4574",
+    "storage_bucket": "notifications-flutter-c4574.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:261111233724:android:e5bb7286e1cc3315c364b9",
+        "android_client_info": {
+          "package_name": "com.tomasledesma.notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "261111233724-k5ol5i7irvc45rqtvgdf7hgrncvarit2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tomasledesma.notifications",
+            "certificate_hash": "c6183e6b6980c54f8bb3bb1ba5bbcee34724d29f"
+          }
+        },
+        {
+          "client_id": "261111233724-o64knu30a3ahnrecie0t1fa6mu4moha4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqA-MPs2BIrwaysktaBV-okNHwxGhdWUA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "261111233724-o64knu30a3ahnrecie0t1fa6mu4moha4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

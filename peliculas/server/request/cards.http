@@ -1,0 +1,58 @@
+@api = http://localhost:4000/cards
+@apiUsers=http://localhost:4000/users
+@apiCardsByUser=http://localhost:4000/users/1/cards
+
+GET {{api}}
+
+###
+POST {{api}}
+Content-Type: application/json
+
+{
+    "nombre":"Enrique",
+    "apellido":"Hernández",
+    "foto":"enrique_hernandez.jpg",
+    "id_rarezas":2,
+    "id_posiciones":4,
+    "id_equipos":2,
+    "id_series":1
+}
+
+###
+DELETE {{api}}/16
+
+### update
+
+PUT {{api}}/22
+Content-Type: application/json
+
+{
+    "nombre":"Carlos",
+    "apellido":"Martines",
+    "foto":"carlos_martinez.jpg",
+    "id_rarezas":2,
+    "id_posiciones":4,
+    "id_equipos":50
+}
+
+###
+
+GET {{apiUsers}}
+
+###
+POST {{apiUsers}}
+Content-Type: application/json
+
+{
+    "usuario":"quique",
+    "contrasena": "martines",
+    "email":"quique_hernandez.jpg",
+    "id_rol":2
+}
+
+###
+
+DELETE {{apiUsers}}/1
+
+###
+GET {{apiCardsByUser}}
